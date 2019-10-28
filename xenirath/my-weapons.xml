@@ -3,7 +3,7 @@
     <info>
         <name>My Weapons</name>
 		<update version="0.0.1">
-			<file name="my-weapons.xml" url="https://raw.githubusercontent.com/homebrewrora/master/user/my-weapons.xml" />
+			<file name="my-weapons.xml" url="https://raw.githubusercontent.com/homebrewrora/master/xenirath/my-weapons.xml" />
 		</update>
 	</info>
     <!-- non magical weapons -->
