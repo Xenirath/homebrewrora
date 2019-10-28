@@ -10,21 +10,21 @@
 	</info>
 	<files>
 		<file name="HBCantrips.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/HBCantrips.xml"/>
-    	<file name="Mega Options Aurora.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/Mega Options Aurora.xml"/>
-    	<file name="anti-component-caster.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/anti-component-caster.xml"/>
-    	<file name="cantrip-collector.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/cantrip-collector.xml"/>
-    	<file name="dead.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/dead.xml"/>
- 		<file name="determinator.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/determinator.xml"/>
- 		<file name="full-counter.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/full-counter.xml"/>
-  		<file name="interposing-reaction.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/interposing-reaction.xml"/>
-   		<file name="lustful-caress.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/lustful-caress.xml"/>
-  		<file name="magic-initiate-variant.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/magic-initiate-variant.xml"/>
- 		<file name="my-magic-objects.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/my-magic-objects.xml"/>
-   		<file name="my-objects.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/my-objects.xml"/>
-   		<file name="my-weapons.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/my-weapons.xml"/>
-   		<file name="my-spells.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/my-spells.xml"/>
-   		<file name="silent-performance.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/silent-performance.xml"/>
- 		<file name="snap-shooter.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/snap-shooter.xml"/>
- 		<file name="thrifty-caster.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/thrifty-caster.xml"/>
+		<file name="Mega Options Aurora.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/Mega Options Aurora.xml"/>
+		<file name="anti-component-caster.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/anti-component-caster.xml"/>
+		<file name="cantrip-collector.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/cantrip-collector.xml"/>
+		<file name="dead.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/dead.xml"/>
+		<file name="determinator.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/determinator.xml"/>
+		<file name="full-counter.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/full-counter.xml"/>
+		<file name="interposing-reaction.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/interposing-reaction.xml"/>
+		<file name="lustful-caress.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/lustful-caress.xml"/>
+		<file name="magic-initiate-variant.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/magic-initiate-variant.xml"/>
+		<file name="my-magic-objects.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/my-magic-objects.xml"/>
+		<file name="my-objects.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/my-objects.xml"/>
+		<file name="my-weapons.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/my-weapons.xml"/>
+		<file name="my-spells.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/my-spells.xml"/>
+		<file name="silent-performance.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/silent-performance.xml"/>
+		<file name="snap-shooter.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/snap-shooter.xml"/>
+		<file name="thrifty-caster.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/thrifty-caster.xml"/>
 	</files>
 </index>
