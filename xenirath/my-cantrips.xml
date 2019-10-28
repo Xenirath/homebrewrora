@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-   <info>
+	<info>
 		<name>My Cantrips</name>
 		<update version="0.0.2">
 			<file name="my-cantrips.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/my-cantrips.xml" />
 		</update>
 	</info>
-    <element name="Massage" type="Spell" source="DnD Wiki" id="ID_WIKI_SPELL_MASSAGE">
-        <supports>Sorcerer, Bard</supports>
-        <description>
-            <p> Choose a creature you can see within range. Magic, nonharmful hands begin to gently and benevolently massage the creature. To the creature, this touch feels not invasive, but inherently welcome, relaxing, and stress-relieving. This spell generally affects any living creature with familiar musculature, including all beasts, humanoids, and giants, but may not affect unusual creatures who would never gain any benefit from a massage, as your DM decides.</p>
-            <p> For the duration, when a Charisma (Persuasion) check is made to convince or persuade the target, it must make a Wisdom saving throw. Any creature that is openly hostile, or has been harmed by you or your associates, automatically succeeds on this saving throw. On a failure, that Charisma (Persuasion) check is made with advantage, but only if the persuasion is done in a calm and gentle manner.</p>
-        </description>
-        <setters>
+	<element name="Massage" type="Spell" source="DnD Wiki" id="ID_WIKI_SPELL_MASSAGE">
+		<supports>Sorcerer, Bard</supports>
+		<description>
+			<p> Choose a creature you can see within range. Magic, nonharmful hands begin to gently and benevolently massage the creature. To the creature, this touch feels not invasive, but inherently welcome, relaxing, and stress-relieving. This spell generally affects any living creature with familiar musculature, including all beasts, humanoids, and giants, but may not affect unusual creatures who would never gain any benefit from a massage, as your DM decides.</p>
+			<p> For the duration, when a Charisma (Persuasion) check is made to convince or persuade the target, it must make a Wisdom saving throw. Any creature that is openly hostile, or has been harmed by you or your associates, automatically succeeds on this saving throw. On a failure, that Charisma (Persuasion) check is made with advantage, but only if the persuasion is done in a calm and gentle manner.</p>
+		</description>
+		<setters>
 		<set name="keywords">massage</set>
 		<set name="level">0</set>
 		<set name="school">Conjuration</set>
@@ -25,6 +25,6 @@
 		<set name="materialComponent" />
 		<set name="isConcentration">true</set>
 		<set name="isRitual">false</set>
-        </setters>
-    </element>
+		</setters>
+	</element>
 </elements>
