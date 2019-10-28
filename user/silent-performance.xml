@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Silent Performance</name>
+    <description>5e homebrew</description>
+    <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;DWiki</author>
+    <update version="0.1">
+        <file name="silent-performance.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dnd-wiki/silent-performance.xml" />
+    </update>
+  </info>
+  <element name="Silent Performance" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_SILENT_PERFORMANCE">
+    <supports />
+		<prerequisite>Ability to cast at least 1 spell and play at least 1 instrument</prerequisite>
+		<requirements>[type:spell]</requirements>
+    <description>
+      <p><i>Prerequisites: Ability to cast at least 1 spell and play at least 1 instrument</i></p>
+      <p>As a magical caster and performer you've spent several hours practicing your craft to be as unique and useful as possible. This allows you to gain the following benefits:</p>
+      <ul>
+        <li>-Increase your Wisdom or Charisma score by 1, to a maximum of 20.</li>
+        <li>-You gain proficiency in Performance. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li>
+        <li>-When casting a spell with a verbal component you may make a Performance check against viewers' passive (Perception). If you are successful they are unaware of a spell being cast and believe it is just a performance. If you succeed by 5 or more you can choose to have the performance be silent.</li>
+      </ul>        
+    </description>
+    <setters>
+      <set name="sourceUrl">https://www.dandwiki.com/wiki/Silent_Performance_(5e_Feat)</set>
+    </setters>
+        <sheet>
+            <description>You gain proficiency or expertise in Performance, can perform, replacing the verbal component of a spell, and can make it silent for other creatures.</description>
+        </sheet>
+    <rules>
+		<select type="Ability Score Improvement" name="Silent Performance" supports="ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" />
+		<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERFORMANCE" />
+	</rules>
+  </element>
+</elements>

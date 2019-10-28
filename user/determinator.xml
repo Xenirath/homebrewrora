@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Determinator</name>
+    <description>5e homebrew</description>
+    <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;DWiki</author>
+    <update version="0.1">
+        <file name="determinator.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dnd-wiki/determinator.xml" />
+    </update>
+  </info>
+  <element name="Determinator" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_DETERMINATOR">
+    <supports />
+		<prerequisite>Wisdom 13 or higher</prerequisite>
+		<requirements>[wis:13]</requirements>
+    <description>
+      <p><i>Prerequisites: Wisdom 13 or higher</i></p>
+      <p>With the power of sheer determination and willpower, you cling onto your life even in the brink of death. You gain the following benefits:</p>
+      <ul>
+        <li>-You have advantage on death saving throws.</li>
+        <li>-When you take a damage that reduces your hit point to 0, if you are not killed outright from the damage, you drop to 1 hit point instead. Once you use this feature, you must finish a long rest to use it again.</li>
+  	  </ul>        
+    </description>
+    <setters>
+      <set name="sourceUrl">https://www.dandwiki.com/wiki/Determinator_(5e_Feat)</set>
+    </setters>
+        <sheet>
+            <description> You get advantage on death saving throws, and once per long rest can drop to 1hp instead of 0 if not killed outright.</description>
+        </sheet>
+  </element>
+</elements>

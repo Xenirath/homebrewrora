@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Anti-Component Caster, Variant</name>
+    <description>5e homebrew</description>
+    <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;DWiki</author>
+    <update version="0.1">
+        <file name="anti-component-caster-variant.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dnd-wiki/anti-component-caster-variant.xml" />
+    </update>
+  </info>
+  <element name="Anti-Component Caster" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_ANTI_COMPONENT_CASTER_VARIANT">
+    <supports />
+		<prerequisite> The ability to cast at least one spell.</prerequisite>
+		<requirements>[type:spell]</requirements>
+    <description>
+      <p><i>Prerequisites: The ability to cast at least one spell.</i></p>
+      <p>Your knowledge of spells allows you to cast spells without specific components, granting you the following benefits:</p>
+      <ul>
+        <li>-You can cast spells without material components if there are no components that are consumed by a spell.</li>
+        <li>-You can cast spells without verbal components.</li>
+		<li>-You can cast spells without somatic components.</li>
+		<li>You may forgo 2 of these 3 features for the alternative benefit of:</li>
+		<li>-Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
+      </ul>        
+    </description>
+    <setters>
+      <set name="sourceUrl">https://www.dandwiki.com/wiki/Anti-Component_Caster,_Variant_(5e_Feat)</set>
+    </setters>
+        <sheet>
+            <description> You get to choose either 3 benefits, or 1 and an ASI.</description>
+        </sheet>
+    <rules>
+        <select type="Feat Feature" name="Anti-Component Caster, Variant" supports="Anti-Component Caster, Variant" />
+    </rules>
+  </element>
+  <element name="Full Benefits" type="Feat Feature" source="D&amp;D Wiki" id="ID_WIKI_FEAT_ANTI_COMPONENT_CASTER_VARIANT_FULL">
+	<supports>Anti-Component Caster, Variant</supports>
+	<requirements />
+	<description>
+		<p> In this case, you get all 3 benefits from the Anti-Component Caster, Variant feat.(no verbal, somatic or non-consumed components needed)</p>
+	</description>
+	<sheet>
+		<description> No verbal, somatic, or non-consumed material components needed in your spellcasting. </description>
+	</sheet>
+  </element>
+  <element name="Single Benefit and ASI" type="Feat Feature" source="D&amp;D Wiki" id="ID_WIKI_FEAT_ANTI_COMPONENT_CASTER_VARIANT_ASI">
+	<supports>Anti-Component Caster, Variant</supports>
+	<requirements />
+	<description>
+		<p>In this case, you get one benefit of your choosing, and a +1 to either Intelligence, Wisdom or Charisma.</p>
+	</description>
+	<sheet>
+		<description> ASI and one of the benefits from the feat (either verbal, somatic or component ignored while spellcasting).</description>
+	</sheet>
+	<rules>
+		<select type="Ability Score Improvement" name="Anti-Component Caster, Variant" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" />
+	</rules>
+  </element>
+</elements>
