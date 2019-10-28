@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="HBCantrips.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/HBCantrips.xml"/>
+		<file name="my-cantrips.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/my-cantrips.xml"/>
 		<file name="Mega Options Aurora.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/Mega Options Aurora.xml"/>
 		<file name="my-feats.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/anti-component-caster.xml"/>
 		<file name="dead.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/dead.xml"/>
