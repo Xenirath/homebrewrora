@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-    <info>
+        <info>
         <name>Mega Options Aurora</name>
 		<update version="0.0.1">
 			<file name="Mega Options Aurora.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/Mega Options Aurora.xml" />
