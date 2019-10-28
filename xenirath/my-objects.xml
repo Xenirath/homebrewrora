@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+        <name>My Objects</name>
+		<update version="0.0.1">
+			<file name="my-objetcs.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/my-objects.xml" />
+		</update>
+	</info>
     <element name="Leather Leash" type="Item" source="Homebrew" id="ID_XENIRATH_ITEM_LEATHER_LEASH">
 		<description>
 			<p> A small leash made of some type of leather, made to strap or hold something or someone. </p>

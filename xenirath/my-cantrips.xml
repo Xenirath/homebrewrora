@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-
+   <info>
+		<name>My Cantrips</name>
+		<update version="0.0.2">
+			<file name="my-cantrips.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/my-cantrips.xml" />
+		</update>
+	</info>
   <element name="Massage" type="Spell" source="DnD Wiki" id="ID_WIKI_SPELL_MASSAGE">
    <supports>Sorcerer, Bard</supports>
    <description>

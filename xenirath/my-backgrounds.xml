@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Dead Background</name>
+		<name>My Backgrounds</name>
 		<update version="0.0.2">
-			<file name="dead.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dms-guild/xanathars-lost-notes-to-everything-else/backgrounds/dead.xml" />
+			<file name="my-backgrounds.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/my-backgrounds.xml" />
 		</update>
 	</info>
-	
 	<element name="Dead" type="Background" source="Xanathar’s Lost Notes to Everything Else" id="ID_XLN_BACKGROUND_DEAD">
 		<description>
 			<p>You died and came back. This experience changed you and defines who you are today. The specifics of your death are up to you, but the following questions and suggestions will help you determine your odd personal history. </p>

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+        <name>Mega Options Aurora</name>
+		<update version="0.0.1">
+			<file name="Mega Options Aurora.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/Mega Options Aurora.xml" />
+		</update>
+	</info>
 	<element name="Free Feat at level 1" type="Option" source="DM houserules" id="ID_HOUSERULES_FREE_FEAT">
 		<description>
 			<p>Some DMs may grant a free feat for your characters at level 1. Check this if your DM does it.</p>

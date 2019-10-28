@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+        <name>My Weapons</name>
+		<update version="0.0.1">
+			<file name="my-weapons.xml" url="https://raw.githubusercontent.com/homebrewrora/master/user/my-weapons.xml" />
+		</update>
+	</info>
     <!-- non magical weapons -->
     <element name="Yo-Yo" type="Weapon" source="DnD Wiki" id="ID_XENIRATH_WEAPON_YOYO">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_EXOTIC, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_HIDDEN, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_YOYO</supports>

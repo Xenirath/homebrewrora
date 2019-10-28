@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Xenirath</name>
+		<description>Homebrew, user added .xml's for Aurora by Xenirath.</description>
+		<author url="https://www.instagram.com/kufitaah_mihdi/">Kufitaah Mihdi aka Xenirath</author>
+		<update version="0.0.1">
+			<file name="xenirath.index" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath.index"/>
+		</update>
+	</info>
+	<files>
+		<file name="my-cantrips.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/my-cantrips.xml"/>
+		<file name="Mega Options Aurora.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/Mega Options Aurora.xml"/>
+		<file name="my-feats.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/anti-component-caster.xml"/>
+		<file name="dead.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/dead.xml"/>
+		<file name="my-magic-objects.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/my-magic-objects.xml"/>
+		<file name="my-objects.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/my-objects.xml"/>
+		<file name="my-weapons.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/my-weapons.xml"/>
+		<file name="my-spells.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/my-spells.xml"/>
+	</files>
+</index>
