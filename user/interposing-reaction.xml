@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Interposing Reaction</name>
+    <description>5e homebrew</description>
+    <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;DWiki</author>
+    <update version="0.1">
+        <file name="interposing-reaction.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dnd-wiki/interposing-reaction.xml" />
+    </update>
+  </info>
+  <element name="Interposing Reaction" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_INTERPOSING_REACTION">
+    <supports />
+		<prerequisite>Constitution 13 or higher, Dexterity 13 or higher.</prerequisite>
+		<requirements>([con:13],[dex:13])</requirements>
+    <description>
+      <p><i>Prerequisites: Constitution 13 or higher, Dexterity 13 or higher.</i></p>
+      <p>You have gained the reaction time to save your friends from danger, no matter what happens to you:</p>
+      <ul>
+        <li>-You increase your Constitution by 1 point, to a maximum of 20.</li>
+        <li>-When you see an ally within your range of movement being attacked, you can choose to take their place for the blow, knocking the ally prone in a square adjacent to you and free of harm. This attack hits you no matter your AC, and you take damage as if it had. This includes spell attacks, melee attacks, and ranged attacks.</li>
+      </ul>        
+    </description>
+    <setters>
+      <set name="sourceUrl">https://www.dandwiki.com/wiki/Interposing_Reaction_(5e_Feat)</set>
+    </setters>
+        <sheet>
+            <description> You can choose to take an ally's place when you see them get hit by a spell, melee or range attack. You knock your ally prone into a safe place, and take the whole blow, no matter your AC, it hits.</description>
+        </sheet>
+    <rules>
+		<stat name="constitution" value="1" />
+	</rules>
+  </element>
+</elements>

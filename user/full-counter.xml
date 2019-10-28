@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Full Counter</name>
+    <description>5e homebrew</description>
+    <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;DWiki</author>
+    <update version="0.1">
+        <file name="full-counter.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dnd-wiki/full-counter.xml" />
+    </update>
+  </info>
+  <element name="Full Counter" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_FULL_COUNTER">
+    <supports />
+		<prerequisite>Dexterity 13 or higher.</prerequisite>
+		<requirements>[dex:13]</requirements>
+	<description>
+		<p>Reflect attacks aimed at you back at your enemy, but with double the power.</p>
+		<ul>
+			<li>When selecting this feat, pick either magical or physical attacks. Upon being hit by either a magical or melee attack, you can use your reaction to reflect double the damage onto the attacker. You regain the use of this ability after a long rest.</li>
+		</ul>
+	</description>
+	<setters>
+      <set name="sourceUrl">https://www.dandwiki.com/wiki/Full_Counter_(5e_Feat)</set>
+    </setters>
+	<sheet>
+		<description> You can return either a magical or physical attack, at double the power, back at your enemy once per long rest. </description>
+	</sheet>
+  </element>
+</elements>

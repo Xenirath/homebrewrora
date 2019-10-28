@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Cantrip Collector</name>
+    <description>5e homebrew</description>
+    <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;DWiki</author>
+    <update version="0.1">
+        <file name="cantrip-collector.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dnd-wiki/cantrip-collector.xml" />
+    </update>
+  </info>
+  <element name="Cantrip Collector" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_CANTRIP_COLLECTOR">
+    <supports />
+		<prerequisite>Ability to cast at least 1 spell.</prerequisite>
+		<requirements>[type:spell]</requirements>
+    <description>
+      <p><i>Prerequisites: Ability to cast at least 1 spell.</i></p>
+      <p>Your time in the presence of wizards has allowed you to learn the following four cantrips: Mage Hand, Mending, Message and Prestidigitation. These spells do not count against your number of spells known.</p>    
+    </description>
+    <setters>
+      <set name="sourceUrl">https://www.dandwiki.com/wiki/Cantrip_Collector_(5e_Feat)</set>
+    </setters>
+        <sheet>
+            <description>You gain the Mage Hand, Mending, Message and Prestidigitation cantrips.</description>
+        </sheet>
+    <rules>
+		<grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" />
+		<grant type="Spell" id="ID_PHB_SPELL_MENDING" />
+		<grant type="Spell" id="ID_PHB_SPELL_MESSAGE" />
+		<grant type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
+	</rules>
+  </element>
+</elements>

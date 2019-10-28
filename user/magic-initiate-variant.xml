@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Magic Initiate, Variant</name>
+    <description>5e homebrew</description>
+    <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;DWiki</author>
+    <update version="0.1">
+        <file name="magic-initiate-variant.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dnd-wiki/magic-initiate-variantxml" />
+    </update>
+  </info>
+  <element name="Magic Initiate, Variant" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_MAGIC_INITIATE_VARIANT">
+    <supports />
+		<prerequisite>At least 8 levels in a single spellcasting class.</prerequisite>
+		<requirements>([type:spell],[level:8])</requirements>
+    <description>
+      <p><i>Prerequisites: Ability to cast at least 1 spell and play at least 1 instrument</i></p>
+      <p>Choose a spellcasting class: bard, cleric, druid, sorcerer, warlock, wizard</p>
+      <ul>
+        <li>You learn two cantrips of your choice from that class spell list and may add the appropriate spellcasting ability modifier to the damage of these two cantrips.</li>
+        <li>In addition, you learn the spell Find Familiar and, using this feat, can cast it at its lowest level to call a Pseudodragon. Once you cast it in this way, you must finish a long rest before you can cast it in this way again.</li>
+        <li>Your spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.</li>
+      </ul>        
+    </description>
+    <setters>
+      <set name="sourceUrl">https://www.dandwiki.com/wiki/Magic_Initiate,_Variant_(5e_Feat)</set>
+    </setters>
+        <sheet>
+            <description>You learn two cantrips from a spellcasting class of your choosing, may add the respective modifiers to their damage, and can cast Find Familiar once per long rest using this feat to call a Pseudodragon.</description>
+        </sheet>
+    <rules>
+		<select type="Feat Feature" name="Magic Initiate, Variant" supports="Magic Initiate, Variant" />
+	</rules>
+  </element>
+	<element name="Bard" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_VARIANT_BARD">
+		<supports>Magic Initiate, Variant</supports>
+		<description>
+			<p>You learn two cantrips of your choice from the bard’s spell list.</p>
+			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
+		</description>
+		<sheet>
+			<description>Spellcasting ability: Charisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Bard" number="2" />
+		</rules>
+	</element>
+	<element name="Cleric" type="Feat Feature" source="Player’s Handbook" id="ID_WIKI_FEAT_MAGIC_INITIATE_VARIANT_CLERIC">
+		<supports>Magic Initiate, Variant</supports>
+		<description>
+			<p>You learn two cantrips of your choice from the cleric’s spell list.</p>
+			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
+		</description>
+		<sheet>
+			<description>Spellcasting ability: Wisdom.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Cleric" number="2" />
+		</rules>
+	</element>
+	<element name="Druid" type="Feat Feature" source="Player’s Handbook" id="ID_WIKI_FEAT_MAGIC_INITIATE_VARIANT_DRUID">
+		<supports>Magic Initiate, Variant</supports>
+		<description>
+			<p>You learn two cantrips of your choice from the druid spell list.</p>
+			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
+		</description>
+		<sheet>
+			<description>Spellcasting ability: Wisdom.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Druid" number="2" />
+		</rules>
+	</element>
+	<element name="Sorcerer" type="Feat Feature" source="Player’s Handbook" id="ID_WIKI_FEAT_MAGIC_INITIATE_VARIANT_SORCERER">
+		<supports>Magic Initiate, Variant</supports>
+		<description>
+			<p>You learn two cantrips of your choice from the sorcerer’s spell list.</p>
+			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
+		</description>
+		<sheet>
+			<description>Spellcasting ability: Charisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Sorcerer" number="2" />
+		</rules>
+	</element>
+	<element name="Warlock" type="Feat Feature" source="Player’s Handbook" id="ID_WIKI_FEAT_MAGIC_INITIATE_VARIANT_WARLOCK">
+		<supports>Magic Initiate, Variant</supports>
+		<description>
+			<p>You learn two cantrips of your choice from the warlock’s spell list.</p>
+			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
+		</description>
+		<sheet>
+			<description>Spellcasting ability: Charisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Warlock" number="2" />
+		</rules>
+	</element>
+	<element name="Wizard" type="Feat Feature" source="Player’s Handbook" id="ID_WIKI_FEAT_MAGIC_INITIATE_VARIANT_WIZARD">
+		<supports>Magic Initiate, Variant</supports>
+		<description>
+			<p>You learn two cantrips of your choice from the wizard’s spell list.</p>
+			<p class="indent">Your spellcasting ability for these spells is intelligence.</p>
+		</description>
+		<sheet>
+			<description>Spellcasting ability: Intelligence.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip (Magic Initiate, Variant)" supports="0,Wizard" number="2" />
+		</rules>
+	</element>
+</elements>
