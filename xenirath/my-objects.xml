@@ -3,7 +3,7 @@
     <info>
         <name>My Objects</name>
 		<update version="0.0.1">
-			<file name="my-objetcs.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/my-objects.xml" />
+			<file name="my-objetcs.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/my-objects.xml" />
 		</update>
 	</info>
     <element name="Leather Leash" type="Item" source="Homebrew" id="ID_XENIRATH_ITEM_LEATHER_LEASH">
