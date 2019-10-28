@@ -3,10 +3,10 @@
 	<info>
 		<name>My Feats</name>
 			<update version="0.1">
-				<file name="my-feats.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/my-feats.xml" />
+				<file name="my-feats.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/my-feats.xml" />
 			</update>
   	</info>
-	<element name="Anti-Component Caster" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_ANTI_COMPONENT_CASTER_VARIANT">
+	<element name="Anti-Component Caster" type="Feat" source="DnD Wiki" id="ID_XENIRATH_FEAT_ANTI_COMPONENT_CASTER_VARIANT">
 		<supports/>
 		<prerequisite> The ability to cast at least one spell.</prerequisite>
 		<requirements>[type:spell]</requirements>
@@ -31,7 +31,7 @@
 			<select type="Feat Feature" name="Anti-Component Caster, Variant" supports="Anti-Component Caster, Variant" />
 		</rules>
 	</element>
-	<element name="Full Benefits" type="Feat Feature" source="D&amp;D Wiki" id="ID_WIKI_FEAT_ANTI_COMPONENT_CASTER_VARIANT_FULL">
+	<element name="Full Benefits" type="Feat Feature" source="DnD Wiki" id="ID_XENIRATH_FEAT_ANTI_COMPONENT_CASTER_VARIANT_FULL">
 		<supports>Anti-Component Caster, Variant</supports>
 		<requirements />
 		<description>
@@ -41,7 +41,7 @@
 			<description> No verbal, somatic, or non-consumed material components needed in your spellcasting. </description>
 		</sheet>
 	</element>
-	<element name="Single Benefit and ASI" type="Feat Feature" source="D&amp;D Wiki" id="ID_WIKI_FEAT_ANTI_COMPONENT_CASTER_VARIANT_ASI">
+	<element name="Single Benefit and ASI" type="Feat Feature" source="DnD Wiki" id="ID_XENIRATH_FEAT_ANTI_COMPONENT_CASTER_VARIANT_ASI">
 		<supports>Anti-Component Caster, Variant</supports>
 		<requirements />
 		<description>
@@ -54,7 +54,7 @@
 			<select type="Ability Score Improvement" name="Anti-Component Caster, Variant" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" />
 		</rules>
 	</element>
-	<element name="Cantrip Collector" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_CANTRIP_COLLECTOR">
+	<element name="Cantrip Collector" type="Feat" source="DnD Wiki" id="ID_XENIRATH_FEAT_CANTRIP_COLLECTOR">
 		<supports />
 			<prerequisite>Ability to cast at least 1 spell.</prerequisite>
 			<requirements>[type:spell]</requirements>
@@ -75,7 +75,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
 		</rules>
   	</element>
- 	<element name="Determinator" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_DETERMINATOR">
+ 	<element name="Determinator" type="Feat" source="DnD Wiki" id="ID_XENIRATH_FEAT_DETERMINATOR">
 		<supports />
 		<prerequisite>Wisdom 13 or higher</prerequisite>
 		<requirements>[wis:13]</requirements>
@@ -94,7 +94,7 @@
 			<description> You get advantage on death saving throws, and once per long rest can drop to 1hp instead of 0 if not killed outright.</description>
 		</sheet>
 	</element>
-	<element name="Full Counter" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_FULL_COUNTER">
+	<element name="Full Counter" type="Feat" source="DnD Wiki" id="ID_XENIRATH_FEAT_FULL_COUNTER">
 		<supports />
 			<prerequisite>Dexterity 13 or higher.</prerequisite>
 			<requirements>[dex:13]</requirements>
@@ -111,7 +111,7 @@
 			<description> You can return either a magical or physical attack, at double the power, back at your enemy once per long rest. </description>
 		</sheet>
 	</element>
-	<element name="Interposing Reaction" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_INTERPOSING_REACTION">
+	<element name="Interposing Reaction" type="Feat" source="DnD Wiki" id="ID_XENIRATH_FEAT_INTERPOSING_REACTION">
 		<supports />
 			<prerequisite>Constitution 13 or higher, Dexterity 13 or higher.</prerequisite>
 			<requirements>([con:13],[dex:13])</requirements>
@@ -157,7 +157,7 @@
 			<description> You gain the ability to deeply seduce a creature. </description>
 		</sheet>
 	</element>
-	<element name="Magic Initiate, Variant" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_MAGIC_INITIATE_VARIANT">
+	<element name="Magic Initiate, Variant" type="Feat" source="DnD Wiki" id="ID_XENIRATH_FEAT_MAGIC_INITIATE_VARIANT">
 		<supports />
 		<prerequisite>At least 8 levels in a single spellcasting class.</prerequisite>
 		<requirements>([type:spell],[level:8])</requirements>
@@ -180,10 +180,10 @@
 			<select type="Feat Feature" name="Magic Initiate, Variant" supports="Magic Initiate, Variant" />
 		</rules>
 	</element>
-	<element name="Bard" type="Feat Feature" source="Player�s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_VARIANT_BARD">
+	<element name="Bard" type="Feat Feature" source="Player's Handbook" id="ID_XENIRATH_FEAT_MAGIC_INITIATE_VARIANT_BARD">
 		<supports>Magic Initiate, Variant</supports>
 		<description>
-			<p>You learn two cantrips of your choice from the bard�s spell list.</p>
+			<p>You learn two cantrips of your choice from the bard's spell list.</p>
 			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
 		</description>
 		<sheet>
@@ -193,10 +193,10 @@
 			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Bard" number="2" />
 		</rules>
 	</element>
-	<element name="Cleric" type="Feat Feature" source="Player�s Handbook" id="ID_WIKI_FEAT_MAGIC_INITIATE_VARIANT_CLERIC">
+	<element name="Cleric" type="Feat Feature" source="Player's Handbook" id="ID_XENIRATH_FEAT_MAGIC_INITIATE_VARIANT_CLERIC">
 		<supports>Magic Initiate, Variant</supports>
 		<description>
-			<p>You learn two cantrips of your choice from the cleric�s spell list.</p>
+			<p>You learn two cantrips of your choice from the cleric's spell list.</p>
 			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
 		</description>
 		<sheet>
@@ -206,7 +206,7 @@
 			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Cleric" number="2" />
 		</rules>
 	</element>
-	<element name="Druid" type="Feat Feature" source="Player�s Handbook" id="ID_WIKI_FEAT_MAGIC_INITIATE_VARIANT_DRUID">
+	<element name="Druid" type="Feat Feature" source="Player's Handbook" id="ID_XENIRATH_FEAT_MAGIC_INITIATE_VARIANT_DRUID">
 		<supports>Magic Initiate, Variant</supports>
 		<description>
 			<p>You learn two cantrips of your choice from the druid spell list.</p>
@@ -219,10 +219,10 @@
 			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Druid" number="2" />
 		</rules>
 	</element>
-	<element name="Sorcerer" type="Feat Feature" source="Player�s Handbook" id="ID_WIKI_FEAT_MAGIC_INITIATE_VARIANT_SORCERER">
+	<element name="Sorcerer" type="Feat Feature" source="Player's Handbook" id="ID_XENIRATH_FEAT_MAGIC_INITIATE_VARIANT_SORCERER">
 		<supports>Magic Initiate, Variant</supports>
 		<description>
-			<p>You learn two cantrips of your choice from the sorcerer�s spell list.</p>
+			<p>You learn two cantrips of your choice from the sorcerer's spell list.</p>
 			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
 		</description>
 		<sheet>
@@ -232,10 +232,10 @@
 			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Sorcerer" number="2" />
 		</rules>
 	</element>
-	<element name="Warlock" type="Feat Feature" source="Player�s Handbook" id="ID_WIKI_FEAT_MAGIC_INITIATE_VARIANT_WARLOCK">
+	<element name="Warlock" type="Feat Feature" source="Player's Handbook" id="ID_XENIRATH_FEAT_MAGIC_INITIATE_VARIANT_WARLOCK">
 		<supports>Magic Initiate, Variant</supports>
 		<description>
-			<p>You learn two cantrips of your choice from the warlock�s spell list.</p>
+			<p>You learn two cantrips of your choice from the warlock's spell list.</p>
 			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
 		</description>
 		<sheet>
@@ -245,10 +245,10 @@
 			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Warlock" number="2" />
 		</rules>
 	</element>
-	<element name="Wizard" type="Feat Feature" source="Player�s Handbook" id="ID_WIKI_FEAT_MAGIC_INITIATE_VARIANT_WIZARD">
+	<element name="Wizard" type="Feat Feature" source="Player's Handbook" id="ID_XENIRATH_FEAT_MAGIC_INITIATE_VARIANT_WIZARD">
 		<supports>Magic Initiate, Variant</supports>
 		<description>
-			<p>You learn two cantrips of your choice from the wizard�s spell list.</p>
+			<p>You learn two cantrips of your choice from the wizard's spell list.</p>
 			<p class="indent">Your spellcasting ability for these spells is intelligence.</p>
 		</description>
 		<sheet>
@@ -258,7 +258,7 @@
 			<select type="Spell" name="Cantrip (Magic Initiate, Variant)" supports="0,Wizard" number="2" />
 		</rules>
 	</element>
-	<element name="Silent Performance" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_SILENT_PERFORMANCE">
+	<element name="Silent Performance" type="Feat" source="DnD Wiki" id="ID_XENIRATH_FEAT_SILENT_PERFORMANCE">
 		<supports />
 			<prerequisite>Ability to cast at least 1 spell and play at least 1 instrument</prerequisite>
 			<requirements>[type:spell]</requirements>
@@ -282,7 +282,7 @@
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERFORMANCE" />
 		</rules>
 	</element>
-	<element name="Snap Shooter" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_SNAP_SHOOTER">
+	<element name="Snap Shooter" type="Feat" source="DnD Wiki" id="ID_XENIRATH_FEAT_SNAP_SHOOTER">
 		<supports />
 		<prerequisite>Dexterity or Strength of 13 or higher.</prerequisite>
 		<requirements>([str:13]|[dex:13])</requirements>
@@ -301,7 +301,7 @@
 			<description>Your AoO reactions can be ranged, and you threaten an area that increases with your Dexterity or Strenght score.</description>
 		</sheet>
 	</element>
-	<element name="Thrifty Caster" type="Feat" source="D&amp;D Wiki" id="ID_WIKI_FEAT_THRIFTY_CASTER">
+	<element name="Thrifty Caster" type="Feat" source="DnD Wiki" id="ID_XENIRATH_FEAT_THRIFTY_CASTER">
 		<supports />
 		<prerequisite>Ability to cast at least 1 spell.</prerequisite>
 		<requirements>[type:spell]</requirements>
