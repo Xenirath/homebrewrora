@@ -3,7 +3,7 @@
     <info>
         <name>My Magic Objects</name>
 		<update version="0.0.1">
-			<file name="my-magic-objects.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user/my-magic-objects.xml" />
+			<file name="my-magic-objects.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/my-magic-objects.xml" />
 		</update>
 	</info>
     <element name="Petaca of Infinitum" type="Magic Item" source="Homebrew" id="ID_XENIRATH_MAGIC_ITEM_PETACA_OF_INFINITUM">
