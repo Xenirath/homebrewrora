@@ -6,6 +6,12 @@
 			<file name="my-backgrounds.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/xenirath/my-backgrounds.xml" />
 		</update>
 	</info>
-	<element>
+	<element name="name" type="type" source="source" id="ID_source_type_name">
+		<description>
+			<p>description</p>
+		</description>
+		<sheet>
+			<description>description</description>
+		</sheet>
 	</element>
 </elements>
