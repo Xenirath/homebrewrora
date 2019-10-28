@@ -5,7 +5,7 @@
 		<description>Homebrew, user added .xml's for Aurora.</description>
 		<author url="https://www.instagram.com/kufitaah_mihdi/">Kufitaah Mihdi aka Xenirath</author>
 		<update version="0.0.1">
-			<file name="user.index" url="https://raw.githubusercontent.com/homebrewrora/master/user.index" />
+			<file name="user.index" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/user.index" />
 		</update>
 	</info>
 	<files>
