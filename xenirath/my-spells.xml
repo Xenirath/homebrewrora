@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+        <name>My Spells</name>
+		<update version="0.0.1">
+			<file name="my-spells.xml" url="https://raw.githubusercontent.com/homebrewrora/master/xenirath/my-spells.xml" />
+		</update>
+	</info>
 	<element name="Magnet Orb" type="Spell" source="DnD Wiki" id="ID_XENIRATH_SPELL_MAGNET_ORB">
 		<supports>Sorcerer, Wizard, Warlock, Bard</supports>
 		<description>
