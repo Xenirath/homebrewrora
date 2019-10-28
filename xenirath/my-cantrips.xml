@@ -16,7 +16,7 @@
 		<set name="keywords">massage</set>
 		<set name="level">0</set>
 		<set name="school">Conjuration</set>
-   	        <set name="time">1 action</set>
+		<set name="time">1 action</set>
 		<set name="duration">Concentration, up to 10 minutes</set>
 		<set name="range">30 feet</set>
 		<set name="hasVerbalComponent">true</set>
