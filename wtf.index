@@ -11,5 +11,6 @@
 	<files>
 		<file name="my-cantrips.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/wtf/my-cantrips.xml"/>
 		<file name="Mega Options Aurora.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/wtf/Mega Options Aurora.xml"/>
+		<file name="my-feats.xml" url="https://raw.githubusercontent.com/Xenirath/homebrewrora/master/wtf/my-feats.xml"/>
 	</files>
 </index>
