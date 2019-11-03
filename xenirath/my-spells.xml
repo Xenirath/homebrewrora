@@ -2,7 +2,7 @@
 <elements>
 	<info>
         <name>My Spells</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="my-spells.xml" url="https://raw.githubusercontent.com/homebrewrora/master/xenirath/my-spells.xml" />
 		</update>
 	</info>
@@ -28,5 +28,48 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	
+	<element name="Arcane Rend" type="Spell" source="Homebrew" id="ID_XENIRATH_SPELL_ARCANE_REND">
+		<supports>Sorcerer, Wizard, Warlock</supports>
+		<description>
+			<p class="flavor"> You rip the weave from someone to attack another target.</p>
+			<p> Make a ranged spell attack against a creature 30 feet from you. That creature, if not willing, must make a wisdom saving throw. If it fails, they take 1d10 force damage, and you must select another creature within 30 feet of the target to also take the same damage. If the creature is willing, both chained creatures instead take 2d10. The first target also loses a spell slot (if it has any) of a level equal to the casting of this spell. </p>
+			<p class="indent"><b><i>At Higher Levels. </i></b> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet, then another 30 feet</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">A drop of goblin blood.</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Shadow Blink" type="Spell" source="DnD Wiki" id="ID_XENIRATH_SPELL_SHADOW_BLINK">
+		<supports>Ranger, Sorcerer, Wizard</supports>
+		<description>
+			<p class="flavor">You meld with the shadows around you, which provides you with extra movement.</p>
+			<p>You become shrouded in shadow and for the duration after casting this spell you gain the ability to meld with the darkness for the purpose of travelling around an area, unseen. As long as you are standing in an area that is dark or dim lit, you may, on your turn, merge with the darkness, becoming one with it and doubling your movement speed while merged. You can enter and exit any surface including the floor, a wall or the celling as long as it has a shadow large enough for you body. You can emerge from the shadow of any creature considered one size larger than you. The moment you emerge you are considered hidden because you appear as shadow but when you leave the dark area you may be spotted. The shadow you emerge from is tangible to you and you may cling to it.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Illusion</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+</elements>
 </elements>
