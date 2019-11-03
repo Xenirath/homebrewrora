@@ -88,7 +88,7 @@
         </description>
         <setters>
 			<set name="category">Adventuring Gear</set>
-			<set name="cost" currency="sp">1gp</set>
+			<set name="cost" currency="gp">1</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="stackable">false</set>
 		</setters>
