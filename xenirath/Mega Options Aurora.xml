@@ -28,15 +28,4 @@
 			<grant type="Proficiency" id="ID_XENIRATH_PROFICIENCY_WEAPON_PROFICIENCY_YOYO" />
 		</rules>
 	</element>
-	<element name="Exotic Weapons Proficiency" type="Option" source="DM houserules" id="ID_HOUSERULES_EXOTICPROF">
-		<description>
-			<p> You are proficient in the use of Exotic weapons, not normally used by your typical fighter, or weapons that come from strange lands. You can add your proficiency modifier to the attack roll of said weapons.</p>
-		</description>
-		<sheet>
-			<description> You are proficient in the use of Exotic weapons, not normally used by your typical fighter, or weapons that come from strange lands. You can add your proficiency modifier to the attack roll of said weapons.</description>
-		</sheet>
-		<rules>
-			<grant type="Proficiency" id="ID_XENIRATH_PROFICIENCY_WEAPON_PROFICIENCY_EXOTIC" />
-		</rules>
-	</element>
 </elements>
